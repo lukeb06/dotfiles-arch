@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./scripts/brew-dump.sh
+git add .

@@ -1,0 +1,11 @@
+README.md
+.git
+.jj
+stow.sh
+.gitignore
+.DS_Store
+.gitmodules
+Brewfile
+hooks
+ci.sh
+scripts
