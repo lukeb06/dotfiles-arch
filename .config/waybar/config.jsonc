@@ -5,9 +5,9 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 50,
-    "modules-left": ["custom/weather","hyprland/workspaces"],
-    "modules-center": ["clock#1", "clock#2"],
+    "height": 40,
+    "modules-left": ["clock#1", "hyprland/workspaces"],
+    "modules-center": ["clock#2"],
     "modules-right": ["bluetooth","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
     "hyprland/window": {
         "format": "  {}"
@@ -18,7 +18,7 @@
         "all-outputs": true,
         "on-click": "activate",
         "persistent_workspaces": {
-            "1": ["DP-1"],
+            "1": [],
             "2": [],
             "3": [],
             "4": [],
