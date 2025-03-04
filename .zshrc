@@ -47,3 +47,10 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/.zshconfig/theme.zsh
 source ~/.zshconfig/path.zsh
+
+# bun completions
+[ -s "/home/luke/.bun/_bun" ] && source "/home/luke/.bun/_bun"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

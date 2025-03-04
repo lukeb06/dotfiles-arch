@@ -8,9 +8,10 @@
     "height": 40,
     "modules-left": ["clock#1", "hyprland/workspaces"],
     "modules-center": ["clock#2"],
-    "modules-right": ["bluetooth","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
+    // "modules-right": ["bluetooth","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
+    "modules-right": ["pulseaudio","tray"],
     "hyprland/window": {
-        "format": "  {}"
+        "format": "{}"
     },
 
     "hyprland/workspaces": {
@@ -46,12 +47,12 @@
     },
 
     "clock#2": {
-        "format": "  {:%I:%M %p}",
+        "format": "{:%I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
     "clock#1": {
-        "format": "󰃮  {:%a, %b %e}",
+        "format": "{:%a, %b %e}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
