@@ -15,6 +15,14 @@
     },
 
     "hyprland/workspaces": {
+        "format": "{windows}",
+        "window-rewrite": {
+            "class<zen>": "󰈹",  // Firefox icon
+            "class<kitty>": "",  // kitty icon
+            "class<discord>": "",  // kitty icon
+            "class<steam>": "",  // kitty icon
+            "class<thunar>": ""  // kitty icon
+        },
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
@@ -31,8 +39,8 @@
             "10": []
         }
     },
-    
-   "custom/weather" : {
+
+    "custom/weather" : {
         //shows the current weather and forecast
         "tooltip" : true,
         "format" : "{}",
@@ -106,7 +114,7 @@
         "on-scroll-down": "pamixer --default-source -d 5",
         "scroll-step": 5
     },
-    
+
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "  {signalStrength}%",
@@ -118,11 +126,11 @@
     },
 
     "bluetooth": {
-	    "format": " {status}",
-	    "format-disabled": "", // an empty format will hide the module
-	    "format-connected": " {num_connections}",
-	    "tooltip-format": "{device_alias}",
-	    "tooltip-format-connected": " {device_enumerate}",
-	    "tooltip-format-enumerate-connected": "{device_alias}"
+        "format": " {status}",
+        "format-disabled": "", // an empty format will hide the module
+        "format-connected": " {num_connections}",
+        "tooltip-format": "{device_alias}",
+        "tooltip-format-connected": " {device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}"
     }
 }
