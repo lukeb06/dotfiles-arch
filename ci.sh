@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./scripts/brew-install.sh
+./scripts/pkg-install.sh
 ./scripts/install-hooks.sh
 ./scripts/stow.sh
 
