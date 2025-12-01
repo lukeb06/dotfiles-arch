@@ -39,7 +39,7 @@ xclip
 zoxide
 zsh
 waybar
-nm
+network-manager-applet
 blueman
 swappy
 swaylock
