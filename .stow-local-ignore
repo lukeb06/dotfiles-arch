@@ -6,6 +6,7 @@ stow.sh
 .DS_Store
 .gitmodules
 Brewfile
+pkglist.txt
 hooks
 ci.sh
 scripts
