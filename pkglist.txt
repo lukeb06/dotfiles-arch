@@ -47,4 +47,5 @@ blueman
 swappy
 swaylock
 swaybg
+pamixer
 firefox
