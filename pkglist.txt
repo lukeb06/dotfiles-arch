@@ -47,3 +47,4 @@ blueman
 swappy
 swaylock
 swaybg
+firefox
