@@ -38,3 +38,9 @@ tmux
 xclip
 zoxide
 zsh
+waybar
+nm
+blueman
+swappy
+swaylock
+swaybg
