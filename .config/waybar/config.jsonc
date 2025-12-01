@@ -17,11 +17,11 @@
     "hyprland/workspaces": {
         "format": "{windows}",
         "window-rewrite": {
-            "class<zen>": "󰈹",  // Firefox icon
+            "class<firefox>": "󰈹",  // Firefox icon
             "class<kitty>": "",  // kitty icon
             "class<discord>": "",  // kitty icon
             "class<steam>": "",  // kitty icon
-            "class<thunar>": ""  // kitty icon
+            "class<dolphin>": ""  // kitty icon
         },
         "disable-scroll": true,
         "all-outputs": true,
