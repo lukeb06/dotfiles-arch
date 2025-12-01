@@ -48,4 +48,5 @@ swappy
 swaylock
 swaybg
 pamixer
+pipewire-pulse
 firefox
