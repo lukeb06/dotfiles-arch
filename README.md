@@ -2,9 +2,7 @@
 
 ## Dependencies
 
-> [Oh My ZSH](https://ohmyz.sh/#install)
-
-> Probably lots of other stuff but I'm too lazy to go through and figure out what all my dependencies are rn...
+> git
 
 ## Install
 
