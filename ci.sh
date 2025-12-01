@@ -3,6 +3,7 @@
 sudo chmod +x ./scripts/pkg-install.sh
 sudo chmod +x ./scripts/pkg-dump.sh
 git clone https://aur.archlinux.org/yay-bin.git ~/.yay-bin && cd ~/.yay-bin && makepkg -si && cd ~/dotfiles
+sleep 10
 ./scripts/pkg-install.sh
 ./scripts/install-hooks.sh
 rm -rf ~/.config/hypr
