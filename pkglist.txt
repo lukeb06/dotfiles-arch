@@ -50,3 +50,4 @@ tmux
 watchman
 xclip
 zoxide
+zsh
