@@ -2,7 +2,6 @@ alias ls='ls --color'
 
 source ~/.zshconfig/utils/nvim.zsh
 source ~/.zshconfig/utils/sessions.zsh
-source ~/.zshconfig/utils/shopify.zsh
 source ~/.zshconfig/utils/git.zsh
 source ~/.zshconfig/utils/python.zsh
 
