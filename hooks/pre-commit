@@ -1,4 +1,4 @@
 #!/bin/sh
 
-./scripts/brew-dump.sh
+./scripts/pkg-dump.sh
 git add .
