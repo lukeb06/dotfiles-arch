@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./scripts/pkg-install.sh
+sudo ./scripts/pkg-install.sh
 ./scripts/install-hooks.sh
 ./scripts/stow.sh
 
