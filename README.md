@@ -2,9 +2,8 @@
 
 ## Dependencies
 
-> git
-
-> curl
+> * git
+> * curl
 
 ## Install
 
