@@ -1,10 +1,10 @@
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-export NVM_DIR="/home/luke/.nvm"
+export NVM_DIR="/home/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # bun completions
-[ -s "/home/luke/.bun/_bun" ] && source "/home/luke/.bun/_bun"
+[ -s "/home/$(whoami)/.bun/_bun" ] && source "/home/$(whoami)/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
