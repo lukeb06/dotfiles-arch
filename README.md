@@ -3,6 +3,7 @@
 ## Dependencies
 
 > git
+> curl
 
 ## Install
 
