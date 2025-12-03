@@ -1,11 +1,8 @@
 README.md
 .git
-.jj
 stow.sh
 .gitignore
-.DS_Store
 .gitmodules
-Brewfile
 pkglist.txt
 yaylist.txt
 hooks
