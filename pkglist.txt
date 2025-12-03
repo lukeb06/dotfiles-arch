@@ -42,7 +42,7 @@ xclip
 zoxide
 zsh
 waybar
-network-manager-applet
+networkmanager
 blueman
 swappy
 swaylock
