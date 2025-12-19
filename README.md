@@ -1,5 +1,7 @@
 # My Arch Dotfiles
 
+This script is designed to be ran directly after installing arch.
+
 ## Dependencies
 
 > * git
