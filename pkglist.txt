@@ -50,3 +50,7 @@ xclip
 xz
 zoxide
 zsh
+nautilus
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
