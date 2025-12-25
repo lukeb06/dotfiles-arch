@@ -15,14 +15,24 @@
     },
 
     "hyprland/workspaces": {
-        "format": "{windows}",
+        // "format": "{windows}",
+        "format": "{icon} {windows}",
         "window-rewrite": {
             "class<firefox>": "󰈹",  // firefox icon
             "class<kitty>": "",  // kitty icon
             "class<discord>": "",  // discord icon
             "class<steam>": "",  // steam icon
-            "class<org.kde.dolphin>": ""  // file icon
+            "class<org.kde.dolphin>": "",  // file icon
+            "class<org.gnome.Nautilus>": "",  // file icon
+            "class<cs2>": "",
+            "class<org.prismlauncher.PrismLauncher>": "",
+            "class<.*Minecraft.*>": "󰍳",
+            "class<com.obsproject.Studio>": ""
         },
+        "window-rewrite-default": "",
+        // "workspace-taskbar": {
+        //     "enable": true,
+        // },
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
