@@ -15,7 +15,6 @@
     },
 
     "hyprland/workspaces": {
-        // "format": "{windows}",
         "format": "{icon} {windows}",
         "window-rewrite": {
             "class<firefox>": "󰈹",  // firefox icon
